@@ -16,3 +16,19 @@ console.log(valueInNumber);
 //null=>0
 //undefined=>NaN
 //NaN=>NaN
+
+let isLoggedIn = "vaibhav";
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
+
+//When we convert it into boolean
+//1 => true
+//"" => false
+//"value" => true
+
+let someNumber = 9;
+let stringNumber = String(someNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber);
+
+//number to string convert

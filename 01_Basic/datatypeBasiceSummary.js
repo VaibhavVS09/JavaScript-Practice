@@ -40,3 +40,27 @@ const hello = function () {
 };
 
 //Array,Object,Function
+
+//Stack(Primitive Data Types)
+//The all primitive datatype values are stored in Stack memory and we get the copy of it.
+
+// Heap(Non-Primitive Data Types)
+//The all non-primitive datatype values are stored in Heap memory and we get the reference of it.
+
+let name = "Vaibhav";
+let lastname = name;
+lastname = "satvekar";
+console.log(name);
+console.log(lastname);
+
+//use objet
+
+let user1 = {
+  userEmail: "vaibahv@gmail.com",
+  upi: "vaibhav@upi",
+};
+let user2 = user1;
+user2.userEmail = "vs@gmail.com";
+
+console.log(user1.userEmail);
+console.log(user2.userEmail);

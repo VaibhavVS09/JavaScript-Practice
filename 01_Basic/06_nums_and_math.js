@@ -40,3 +40,9 @@ console.log(Math.max(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 console.log(Math.random());
 //random fixed
 console.log(Math.floor(Math.random() * 10 + 1));
+
+//min to max random
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min));
